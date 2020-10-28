@@ -7,6 +7,7 @@ Introdução  às  Estruturas  de  Dados:  Vetores  e  matrizes;  Recursividade;
 Nº aulas semanais: 4 | Total de aulas: 76 | Total de horas: 63,3
 
 Professora: Dra. Helen de Freitas Santos
+
 Aluno: Lucas Andrei Moraes da Silva
 
 ## Conteúdo do curso 
