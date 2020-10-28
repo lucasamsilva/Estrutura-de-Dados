@@ -1,0 +1,52 @@
+Nome: Lucas Andrei Moraes da Silva
+Prontuário: 1760076
+
+---------- Hello World ----------
+
+1. É incluida a biblioteca "stdio.h"(standard input-output header), que é utilizada para entrada e saída de dados na linguagem C.
+2. É criada a função principal(main), o programa inicia sua execução por essa função.
+3. É utilizado o comando printf(), para que seja exibida a mensagem "Hello World" na tela.
+4. Por fim é utilizado o return 0, necessário pois a função "main" foi declarada como um tipo inteiro(int), logo é necessário que exista
+um retorno para essa função.
+
+---------- Testa Estrutura ----------
+
+1. São incluidas as bibliotecas stdio(entrada e saída de dados) e malloc(alocação de memória).
+2. São criadas as estruturas TESTE e *PONT.
+3. É criada a função copiar do tipo PONT, que recebe 1 parâmetro do tipo TESTE e a partir disso aloca 
+um espaço de memória e copia o valor recebido no parâmetro para esse espaço alocado e retorna
+ a variável do tipo PONT que foi criada.
+4. É criada a função principal main.
+5. É criado uma variável do tipo TESTE.
+6. A variável do tipo TESTE criada recebe os valores 10 e 22 nos seus atributos c1 e c2, respectivamente.
+7. É criado a variável "w" do tipo PONT, e por meio da função "copiar" ela recebe os valores 10 e 22 da
+da variável tipo TESTE.
+8. Os dados são impressos na tela.
+
+---------- Estrutura Simples ----------
+
+1. É incluida a biblioteca stdio.
+2. É definida a variável global alturaMaxima.
+3. É criado a estrutura PesoAltura.
+4. É criada a função main().
+5. São criadas variáveis do tipo int e do tipo PesoAltura.
+6. São atribuidos valores para a variável do tipo PesoAltura.
+7. são impressos os valores atribuidos.
+8. É checado se a altura atribuida à variável PesoAltura está acima ou abaixo do valor definido em 
+alturaMaxima.
+9. São impressos os endereços de memória de todas as variáveis.
+
+---------- Estrutura Simples 2 ----------
+
+1. É incluida a biblioteca stdio e malloc.
+2. É definida a variável global alturaMaxima.
+3. É criado a estrutura PesoAltura.
+4. É criada a função main().
+5. São criadas variáveis do tipo int e do e um ponteiro chamado "pessoa1" do tipo PesoAltura.
+6. É impresso na tela o valor do endereço de memória do ponteiro.
+7. É alocado um espaço de memória para o ponteiro pessoa1.
+8. São impressos os valores do Peso e Altura presentes em "pessoa1".
+9. São definidos valores de Peso e Altura para "pessoa1".
+10. São impressos os valores do Peso e Altura presentes em "pessoa1".
+11. É checado se a altura atribuida está dentro da altura máxima permitida.
+12. São impressos os endereços de memória.
