@@ -3,12 +3,15 @@
 
 int main()
 {
-
     LISTA soldados;
     unsigned long int qntdSoldados;
     inicializarLista(&soldados);
 
-    printf("Digite a quantidade de soldados na roda: ");
+    printf("\n----------------------");
+    printf("PROBLEMA DE JOSEPHUS");
+    printf("----------------------\n\n");
+
+    printf("Digite a quantidade de soldados na roda (Digite 0 para finalizar o programa): ");
     scanf("%li", &qntdSoldados);
 
     while (qntdSoldados != 0)
@@ -23,7 +26,7 @@ int main()
         Josepheus(&soldados);
 
         reinicializarLista(&soldados);
-        
+
         printf("Digite a quantidade de soldados na roda: ");
         scanf("%li", &qntdSoldados);
     }
