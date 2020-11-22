@@ -219,6 +219,10 @@ void calcula(PILHA *p, char OP)
 
     case '/':
       topo = retornarTopo(p, &valor);
+      if(topo->prox->reg.chave == 0) {
+        printf("Divisão por zero não permitida\n");
+        break;
+      }
       topo->prox->reg.chave /= valor;
       pop(p);
       break;

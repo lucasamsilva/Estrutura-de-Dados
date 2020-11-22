@@ -13,6 +13,9 @@ void calculadora(PILHA *p)
   scanf("%s", entrada);
   while (entrada[0] != 'q')
   {
+    if(entrada[0] == 'C') {
+      reinicializarPilha(p);
+    }
     if (entrada[0] == '+' || entrada[0] == '-' || entrada[0] == '*' || entrada[0] == '/')
     {
       TIPOCHAVE res;
