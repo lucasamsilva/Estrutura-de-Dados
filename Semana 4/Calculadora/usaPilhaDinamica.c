@@ -16,7 +16,7 @@ void calculadora(PILHA *p)
     if(entrada[0] == 'C') {
       reinicializarPilha(p);
     }
-    if (entrada[0] == '+' || entrada[0] == '-' || entrada[0] == '*' || entrada[0] == '/')
+    if ((entrada[0] == '+' || entrada[0] == '-' || entrada[0] == '*' || entrada[0] == '/') && entrada[1] == '\0')
     {
       TIPOCHAVE res;
       calcula(p, entrada[0]);
