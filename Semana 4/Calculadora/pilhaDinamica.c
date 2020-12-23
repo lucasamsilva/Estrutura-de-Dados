@@ -191,7 +191,7 @@ PONT buscaSequencial(PILHA *p, TIPOCHAVE ch)
   return NULL;
 } /* buscaSequencial */
 
-void calcula(PILHA *p, char OP)
+bool calcula(PILHA *p, char OP)
 {
   PONT topo = NULL;
   TIPOCHAVE valor;
@@ -203,28 +203,33 @@ void calcula(PILHA *p, char OP)
       topo = retornarTopo(p, &valor);
       topo->prox->reg.chave += valor;
       pop(p);
+      return true;
       break;
 
     case '-':
       topo = retornarTopo(p, &valor);
       topo->prox->reg.chave -= valor;
       pop(p);
+      return true;
       break;
 
     case '*':
       topo = retornarTopo(p, &valor);
       topo->prox->reg.chave *= valor;
       pop(p);
+      return true;
       break;
 
     case '/':
       topo = retornarTopo(p, &valor);
       if(valor == 0) {
         printf("Divisão por zero não permitida\n");
+        return false;
         break;
       }
       topo->prox->reg.chave /= valor;
       pop(p);
+      return true;
       break;
     }
   }
