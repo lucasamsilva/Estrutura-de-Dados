@@ -69,7 +69,18 @@ int main() {
       vetor[i] = rand() % 1000;  
     }
 
+	printf("Vetor Original: ");
+
+	for (int i = 0; i < MAX; i++)
+    {
+        printf("%i ", vetor[i]);
+    }
+
     mergeSort(vetor, 0, MAX-1);
+
+	printf("\n\n");
+
+	printf("Vetor Ordenado: ");
 
     for (int i = 0; i < MAX; i++)
     {

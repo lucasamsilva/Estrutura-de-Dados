@@ -20,4 +20,12 @@ Aluno: Lucas Andrei Moraes da Silva
 
  [Semana 4](https://github.com/lucasamsilva/Estrutura-de-Dados/tree/master/Semana%204)
 
+ [Semana 5](https://github.com/lucasamsilva/Estrutura-de-Dados/tree/master/Semana%205)
+
+ [Semana 6](https://github.com/lucasamsilva/Estrutura-de-Dados/tree/master/Semana%206)
+
+ [Semana 7](https://github.com/lucasamsilva/Estrutura-de-Dados/tree/master/Semana%207)
+
+ [Semana 8](https://github.com/lucasamsilva/Estrutura-de-Dados/tree/master/Semana%208)
+
 
